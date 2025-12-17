@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeArena - Coding Contests</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">
+        <span class="logo-icon">{"</>"}</span>
+        <span class="logo-text">CodeArena</span>
+      </div>
+
+      <div class="nav-menu" id="nav_menu">
+        <button class="nav-close" id="close_btn">
+          <i class="ri-close-line"></i>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#contests" class="nav-link">Contests</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+        <a href="#join" class="btn nav-btn">Login / Sign up</a>
+      </div>
+
+      <button class="nav-toggle" id="toggle_btn">
+        <i class="ri-menu-line"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <p class="badge">New • Weekly Coding Battles</p>
+        <h1>Host & Join <span>Pro-Level</span> Coding Contests.</h1>
+        <p class="hero-subtitle">
+          Daily contests, live leaderboard, and secure environment for students & professionals. 
+          Build your coding profile and compete with the best.
+        </p>
+        <div class="hero-actions">
+          <a href="#contests" class="btn primary">View Upcoming Contests</a>
+          <a href="#join" class="btn ghost">Become Contest Creator</a>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <h3>10K+</h3>
+            <p>Submissions</p>
+          </div>
+          <div>
+            <h3>100+</h3>
+            <p>Institutes</p>
+          </div>
+          <div>
+            <h3>24x7</h3>
+            <p>Practice</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="card-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <div class="card-body">
+<pre><code class="code">
+while (isPrepared()) {
+    compete();
+    learn();
+    levelUp();
+}
+</code></pre>
+            <p class="card-tag">#CompetitiveProgramming #DSA #Dev</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section" id="features">
+    <div class="container">
+      <h2 class="section-title">Why coders love CodeArena</h2>
+      <p class="section-subtitle">
+        Designed for colleges, communities and serious coders who want a clean & secure contest experience.
+      </p>
+
+      <div class="grid-3">
+        <div class="feature-card">
+          <i class="ri-shield-check-line feature-icon"></i>
+          <h3>Secure Environment</h3>
+          <p>Tab-switch warnings, full-screen mode and strict time limits to keep contests fair.</p>
+        </div>
+        <div class="feature-card">
+          <i class="ri-flashlight-line feature-icon"></i>
+          <h3>Fast Contest Setup</h3>
+          <p>Create contests in minutes with custom problems, scoring rules and schedules.</p>
+        </div>
+        <div class="feature-card">
+          <i class="ri-bar-chart-2-line feature-icon"></i>
+          <h3>Smart Analytics</h3>
+          <p>Track submissions, rankings, cheating patterns and performance growth over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contests Section -->
+  <section class="section section-alt" id="contests">
+    <div class="container">
+      <h2 class="section-title">Upcoming Contests</h2>
+      <p class="section-subtitle">
+        Start with free entry contests and move to high-stakes championship rounds.
+      </p>
+
+      <div class="contest-grid">
+        <article class="contest-card">
+          <span class="contest-tag free">Free</span>
+          <h3>Daily DSA Sprint</h3>
+          <p>10 problems • 90 minutes • Data Structures & Algorithms focused.</p>
+          <p class="contest-meta">Everyday • 8:00 PM IST</p>
+          <a href="#" class="btn small">Register</a>
+        </article>
+
+        <article class="contest-card">
+          <span class="contest-tag pro">Pro</span>
+          <h3>Weekend Ladder Challenge</h3>
+          <p>Mixed difficulty, ideal for interview prep and rating push.</p>
+          <p class="contest-meta">Saturday • 7:00 PM IST</p>
+          <a href="#" class="btn small">Register</a>
+        </article>
+
+        <article class="contest-card">
+          <span class="contest-tag college">Campus Battle</span>
+          <h3>Inter‑College Showdown</h3>
+          <p>Bring your team & represent your campus in live leaderboards.</p>
+          <p class="contest-meta">Custom schedule • For colleges</p>
+          <a href="#" class="btn small">Host for your college</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / CTA -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div>
+        <h2 class="section-title">Made for serious growth.</h2>
+        <p class="section-subtitle">
+          Combine practice, contests and community in one place. Perfect for students, teachers and organizations.
+        </p>
+        <ul class="list">
+          <li><i class="ri-check-line"></i> Daily & weekly contests calendar</li>
+          <li><i class="ri-check-line"></i> Admin panel to add new contests</li>
+          <li><i class="ri-check-line"></i> Leaderboard & badges for motivation</li>
+        </ul>
+      </div>
+      <div id="join">
+        <h3 class="form-title">Get early access</h3>
+        <p class="form-subtitle">Share your details and we’ll contact you when creator tools are live.</p>
+        <form class="form">
+          <input type="text" placeholder="Full name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="text" placeholder="College / Company (optional)">
+          <button type="submit" class="btn primary full">Join the waitlist</button>
+        </form>
+        <p class="form-note">No spam. Only important contest updates.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo footer-logo">
+          <span class="logo-icon">{"</>"}</span>
+          <span class="logo-text">CodeArena</span>
+        </div>
+        <p class="footer-text">Built for coders who love challenges, clean UI and fair competition.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Links</p>
+        <a href="#contests">Contests</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+      </div>
+      <div>
+        <p class="footer-heading">Connect</p>
+        <a href="#">Telegram community</a>
+        <a href="#">Instagram</a>
+        <a href="#">Email support</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> CodeArena. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
